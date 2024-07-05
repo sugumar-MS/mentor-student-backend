@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 // setting data type
-const stdSchema = mongoose.Schema({
+const studentSchema = mongoose.Schema({
     name: String,
     email: String,
     batch: String,
@@ -9,5 +9,5 @@ const stdSchema = mongoose.Schema({
     previousMentors: [{ type: mongoose.Schema.Types.ObjectId, ref: 'Mentor' }]
 });
 
-const Student = mongoose.model("Student", stdSchema);
+const Student = mongoose.model("Student", studentSchema);
 export default Student;

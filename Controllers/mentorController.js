@@ -1,6 +1,6 @@
 // importing necessary components
-import Student from "../Models/stdSchema.js";
-import Mentor from "../Models/mntrSchema.js";
+import Student from "../Models/studentSchema.js";
+import Mentor from "../Models/mentorSchema.js";
 
 // Create operation for new mentor
 export const createMentor = async (req, res) => {

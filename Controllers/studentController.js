@@ -1,5 +1,5 @@
 // importing necessary components
-import Student from "../Models/stdSchema.js";
+import Student from "../Models/studentSchema.js";
 
 // Creating new student
 export const createStudent = async (req, res) => {

@@ -1,6 +1,6 @@
 // importing necessary components
 import express from "express";
-import {createMentor,getAllMentors,assignStudentsToMentor,changeMentor,getStudentsForMentor,getPreviousMentors} from "../Controllers/mntrController.js";
+import {createMentor,getAllMentors,assignStudentsToMentor,changeMentor,getStudentsForMentor,getPreviousMentors} from "../Controllers/mentorController.js";
 
 // middleware
 const router = express.Router();

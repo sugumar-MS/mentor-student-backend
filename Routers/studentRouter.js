@@ -1,6 +1,6 @@
 // importing necessary components
 import express from "express";
-import { createStudent, getAllStudents } from "../Controllers/stdController.js";
+import { createStudent, getAllStudents } from "../Controllers/studentController.js";
 
 // middleware
 const router = express.Router();
